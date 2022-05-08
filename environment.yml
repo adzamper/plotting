@@ -1,14 +1,10 @@
-name: em-notebooks-environment
-
+name: example-environment
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - numpy
-  - scipy
+  - pygmt
+  - utm
   - matplotlib
-  - ipywidgets>=0.6.0
+  - scipy
   - pandas
-  -pygmt
-  - pip:
-    - utm
